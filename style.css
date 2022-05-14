@@ -1,0 +1,73 @@
+body{
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: sans-serif;
+  justify-content: center;
+  background: url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+*{box-sizing:border-box;}
+
+.calculator{
+ padding: 10px;
+ border-radius: 1em;
+ height: 500px;
+ width: 400px;
+ margin: auto;
+ background-color: #191b28;
+ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.screen{
+    
+
+    font-family: 'Orbitron', sans-serif;
+ background-color: #dcdbe1;
+ border: solid black 0.5px;
+ color: black;
+ border-radius: 5px;
+ width: 100%;
+ height: 20%;
+}
+.cal-buttons{
+    background:#191b28;
+    padding: 15px;
+    align-items: center;
+}
+ul#buttons{
+    list-style-type: none;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+ul#buttons li{
+    font-size: 24px;
+    color: #000000;
+    background: #ecedef;
+    /* border: 1px solid black; */
+    width: 20%;
+    margin:5px 2.5%;
+    padding-top: 11px;
+    height: 50px;
+    border-radius:15px;
+    font-weight: bold;
+   cursor: pointer;
+    text-align: center;
+    transition: all 0.3s;
+
+}
+ul#buttons li:hover,ul#buttons li:visited{
+    background: #191b28;
+    color:  #ffffff;
+    align-items: center;
+}
+ul#buttons li:active{
+    background:  #191b28;
+}
+li#equals{
+width: 100% !important;
+border-radius: 15px !important;
+} 
